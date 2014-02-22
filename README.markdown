@@ -1,20 +1,17 @@
-# Hello Scaloid for sbt
-
-This is a template project that can be a starting point of a new [Scaloid](https://github.com/pocorall/scaloid) project.
-
-This contains minimum code as possible; therefore easy to run, examine and extend.
+# Seapal in Scala
 
 Prerequisites
 -------------
 * sbt 0.13.0 or above
 * Android SDK
-  - Both SDK Level 8 and the most recent version should be installed.
+  - install SDK Level 19.
+  - Install Google Play Services, Google Reporsitory and Android Support-Library and -Repository.
 
 Build
 -----
 You can build using sbt:
 
-    $ sbt android:package
+    $ sbt run
 
 This will compile the project and generate an APK.
 
@@ -31,6 +28,5 @@ Troubleshooting
 Further Reading
 ---------------
 - [Scaloid](https://github.com/pocorall/scaloid)
-- [Scaloid APIdemos](https://github.com/pocorall/scaloid-apidemos)
 - [Android SDK plugin for sbt](https://github.com/pfn/android-sdk-plugin)
 

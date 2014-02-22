@@ -32,7 +32,7 @@ libraryDependencies ++= Seq(
   "org.scaloid" %% "scaloid" % "3.2-8",
   "com.google.android.gms" % "play-services" % "4.0.30",
   "org.scalatest" % "scalatest_2.10" % "2.0" % "compile",
-  "org.scalatest" % "scalatest_2.10" % "2.0" % "test",
+  "org.scalatest" % "scalatest_2.10" % "2.0" % "test"
 )
 
 run <<= run in Android

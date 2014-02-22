@@ -11,7 +11,12 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0c76906-0378-41ab-99f6-24c0f34610b4" name="Default" comment="" />
+    <list default="true" id="f0c76906-0378-41ab-99f6-24c0f34610b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.markdown" afterPath="$PROJECT_DIR$/README.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="seapal.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -121,10 +126,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.sbt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="28" selection-start="647" selection-end="647" vertical-scroll-proportion="0.7172996" vertical-offset="0" max-vertical-offset="782">
+            <state line="19" column="31" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.markdown" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="333" selection-end="333" vertical-scroll-proportion="0.16588785" vertical-offset="218" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -170,6 +184,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -194,10 +211,11 @@
         <option value="$PROJECT_DIR$/src/de/htwg/scalaseapal/controller/DatabaseInjection.scala" />
         <option value="$PROJECT_DIR$/tests/BoatTest.scala" />
         <option value="$PROJECT_DIR$/tests/MockInjection.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/de/htwg/scalaseapal/controller/TBoatController.scala" />
         <option value="$PROJECT_DIR$/tests/TestController.scala" />
         <option value="$PROJECT_DIR$/src/de/htwg/scalaseapal/database/TBoatDatabase.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/README.markdown" />
       </list>
     </option>
   </component>
@@ -207,7 +225,7 @@
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -601,13 +619,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/htwg/scalaseapal/view/MainActivity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="42" selection-start="918" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/htwg/scalaseapal/view/BoatDetailsActivity.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="44" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="1989">
@@ -951,7 +962,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="647" selection-end="647" vertical-scroll-proportion="0.7172996" vertical-offset="0" max-vertical-offset="782">
+        <state line="19" column="31" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="333" selection-end="333" vertical-scroll-proportion="0.16588785" vertical-offset="218" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
