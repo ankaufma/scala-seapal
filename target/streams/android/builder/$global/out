@@ -1,0 +1,2 @@
+[0m[[0mdebug[0m] [0mCustom package for R class: 'de.htwg.scalaseapal.view'[0m
+[0m[[0mdebug[0m] [0mcommand: D:\Downloads\ADK\sdk\tools\build-tools\android-4.4\aapt.exe package -f --no-crunch -I D:\Downloads\ADK\sdk\tools\platforms\android-19\android.jar -M D:\BA\seapal\bin\AndroidManifest.xml -S D:\BA\seapal\bin\resources\res -A D:\BA\seapal\bin\assets -m -J D:\BA\seapal\gen -G D:\BA\seapal\bin\proguard.txt --debug-mode --custom-package de.htwg.scalaseapal.view --output-text-symbols D:\BA\seapal\gen[0m

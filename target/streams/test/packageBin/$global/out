@@ -1,0 +1,29 @@
+[0m[[0minfo[0m] [0mPackaging D:\BA\seapal\target\scala-2.10\scala-seapal_2.10-0.5-tests.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	TestController$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\TestController$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	tests\scala\BoatTest.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\tests\scala\BoatTest.class[0m
+[0m[[0mdebug[0m] [0m	tests[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\tests[0m
+[0m[[0mdebug[0m] [0m	tests\scala[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\tests\scala[0m
+[0m[[0mdebug[0m] [0m	TestController$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\TestController$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	TestController.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\TestController.class[0m
+[0m[[0mdebug[0m] [0m	TestController$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\TestController$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	tests\scala\BoatTest$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\tests\scala\BoatTest$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	TestController$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\TestController$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	TestController$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\TestController$$anonfun$5.class[0m
+[0m[[0mdebug[0m] [0m	tests\scala\BoatTest$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\tests\scala\BoatTest$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	TestController$MockInjection$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\TestController$MockInjection$.class[0m
+[0m[[0mdebug[0m] [0m	tests\scala\BoatTest$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\BA\seapal\target\scala-2.10\test-classes\tests\scala\BoatTest$$anonfun$3.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m[32mTestController:[0m[0m
+[0m[[0minfo[0m] [0m[32mThe isNotEmpty method[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false if input type isn't a String[0m[0m
+[0m[[0minfo[0m] [0m[32mThe isNotEmpty method[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false if a String is empty[0m[0m
+[0m[[0minfo[0m] [0m[32mThe isNotEmpty method[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true on a regular String input[0m[0m
+[0m[[0minfo[0m] [0m[32mThe makeFlatStringAttList[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a list of size 24 when a BoatModel is inserted[0m[0m
+[0m[[0minfo[0m] [0m[32mThe makeFlatStringAttList[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a List of 6 Strings when input a List of 2 Tuple with 3 Double and 3 String[0m[0m

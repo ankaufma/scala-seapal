@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0m[32mBoatTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mAn empty boat[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be initialized with Default Values (Default Constructor)[0m[0m
+[0m[[0minfo[0m] [0m[32mA copy of an empty boat with boatName 'Pequad'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return the Name 'Pequad'[0m[0m
+[0m[[0minfo[0m] [0m[32mTupel sailMainGenuaSpiSize[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be readable individual[0m[0m

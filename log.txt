@@ -1,0 +1,58 @@
+[info] Loading project definition from D:\BA\seapal\project
+[info] Set current project to scala-seapal (in build file:/D:/BA/seapal/)
+[info] Generating R.java
+ProGuard, version 4.10
+ProGuard is released under the GNU General Public License. You therefore
+must ensure that programs that link to it (android, ...)
+carry the GNU General Public License as well. Alternatively, you can
+apply for an exception with the author of ProGuard.
+Reading input...
+Reading program jar [D:\BA\seapal\target\aars\com.google.android.gms-play-services-4.0.30\classes.jar] (filtered)
+Reading program jar [C:\Users\AK\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar] (filtered)
+Reading program jar [C:\Users\AK\.ivy2\cache\org.scaloid\scaloid_2.10\jars\scaloid_2.10-2.5-8.jar] (filtered)
+Reading program jar [C:\Users\AK\.ivy2\cache\com.android.support\support-v4\jars\support-v4-13.0.0.jar] (filtered)
+Reading program jar [D:\BA\seapal\bin\classes.jar] (filtered)
+Reading library jar [D:\Downloads\ADK\sdk\tools\platforms\android-8\android.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'Object'
+      Maybe you meant the fully qualified name 'java.lang.Object'?
+Note: the configuration refers to the unknown class 'ccom.google.android.gms.common.annotation.KeepName'
+      Maybe you meant the fully qualified name 'com.google.android.gms.common.annotation.KeepName'?
+Note: the configuration refers to the unknown class 'ccom.google.android.gms.common.annotation.KeepName'
+      Maybe you meant the fully qualified name 'com.google.android.gms.common.annotation.KeepName'?
+Note: com.google.android.gms.internal.av calls '(com.google.ads.mediation.MediationAdapter)Class.forName(variable).newInstance()'
+Note: com.google.android.gms.maps.internal.q: can't find dynamically referenced class com.google.android.gms.maps.internal.CreatorImpl
+Note: there were 3 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 1 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 1 class casts of dynamically created class instances.
+      You might consider explicitly keeping the mentioned classes and/or
+      their implementations (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclasscast)
+Note: You're ignoring all warnings!
+Ignoring unused library classes...
+  Original number of library classes: 2642
+  Final number of library classes:    918
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 7085
+  Final number of program classes:    1533
+Writing output...
+Preparing output jar [D:\BA\seapal\bin\classes.proguard.jar]
+  Copying resources from program jar [D:\BA\seapal\target\aars\com.google.android.gms-play-services-4.0.30\classes.jar] (filtered)
+  Copying resources from program jar [C:\Users\AK\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.3.jar] (filtered)
+  Copying resources from program jar [C:\Users\AK\.ivy2\cache\org.scaloid\scaloid_2.10\jars\scaloid_2.10-2.5-8.jar] (filtered)
+  Copying resources from program jar [C:\Users\AK\.ivy2\cache\com.android.support\support-v4\jars\support-v4-13.0.0.jar] (filtered)
+  Copying resources from program jar [D:\BA\seapal\bin\classes.jar] (filtered)
+[info] Creating proguard cache: proguard-cache-c0d0e1011f5124abaa28b785a6c7550aa6d9dc25.jar
+[info] Generating classes.dex
+[info] Packaged: scala-seapal-debug-unaligned.apk (855,58KB)
+[info] Debug package does not need signing: scala-seapal-debug-unaligned.apk
+[info] zipaligned: scala-seapal-debug.apk
+[info] Installing...
+[info] [scala-seapal-debug.apk] Install finished: 855,73KB in 4,95s. 172,98KB/s
+[info] Starting: Intent { cmp=de.htwg.scalaseapal.view/.MainActivity }
+[success] Total time: 153 s, completed 14.12.2013 16:34:55

@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:31
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view res/layout/map_activity.xml #generated:2
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class de.htwg.scalaseapal.view.BoatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class de.htwg.scalaseapal.view.BoatDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class de.htwg.scalaseapal.view.InsertBoatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class de.htwg.scalaseapal.view.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class de.htwg.scalaseapal.view.MapActivity { <init>(...); }
+

@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0mGenerating R.java[0m
+[0m[[0mdebug[0m] [0mAll libs: List(AarLibrary(D:\BA\seapal\target\aars\com.couchbase.cblite-CBLite-1.0.0-beta), AarLibrary(D:\BA\seapal\target\aars\com.couchbase.cblite-CBLiteEktorp-1.0.0-beta), AarLibrary(D:\BA\seapal\target\aars\com.google.android.gms-play-services-4.0.30))[0m
+[0m[[0mdebug[0m] [0mAll packages: List(com.couchbase.cblite, com.couchbase.cblite, com.google.android.gms)[0m
+[0m[[0mdebug[0m] [0mpackageForR: de.htwg.scalaseapal.view[0m
+[0m[[0mdebug[0m] [0mproguard.txt: D:\BA\seapal\bin\proguard.txt[0m
+[0m[[0mdebug[0m] [0mIn modified: Set(D:\BA\seapal\bin\AndroidManifest.xml)[0m
+[0m[[0mdebug[0m] [0mInRemoved: Set()[0m
+[0m[[0mdebug[0m] [0mOut checked: Set(D:\BA\seapal\gen\com\couchbase\cblite\R.java, D:\BA\seapal\gen\com\google\android\gms\R.java, D:\BA\seapal\gen\de\htwg\scalaseapal\view\R.java, D:\BA\seapal\gen\de\htwg\scalaseapal\view\Manifest.java)[0m
+[0m[[0mdebug[0m] [0mOut modified: Set()[0m
