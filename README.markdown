@@ -13,7 +13,7 @@ You can build using sbt:
 
     $ sbt run
 
-This will compile the project and generate an APK.
+This will compile the project and generate an APK
 
 For more command, refer to [Android SDK plugin for sbt](https://github.com/pfn/android-sdk-plugin).
 
