@@ -15,6 +15,8 @@ import android.widget.ImageButton
 import android.widget.TextView
 import de.htwg.scalaseapal.utils.{ContextHolder, Position}
 import android.location.Geocoder
+import org.scaloid.common._
+
 
 trait MapDialogListener {
   def onDialogSetMarkClick(dialog: DialogFragment)
@@ -26,6 +28,7 @@ trait MapDialogListener {
 
 class MapDialogFragment extends DialogFragment {
 
+  implicit val context = ContextHolder.myContext
   var mListener: MapDialogListener = _
 
   override def onAttach(activity: Activity): Unit = {
@@ -50,6 +53,7 @@ class MapDialogFragment extends DialogFragment {
     val t: TextView = titleView.findViewById(R.id.menuTitleLabel).asInstanceOf[TextView]
 
     val pos: LatLng = Position.position
+    try {
     val geocoder = new Geocoder(ContextHolder.myContext)
     val adress =  geocoder.getFromLocation(pos.latitude, pos.longitude, 1)
     if(adress.size > 0) {
@@ -60,6 +64,10 @@ class MapDialogFragment extends DialogFragment {
       val lat: String = formatLatitude(pos.latitude);
       val lng: String = formatLongitude(pos.longitude);
       t.setText(lat + "       " +  lng);
+    }
+    } catch {
+      case np: NullPointerException => toast("Error during establishing Internet Connection. Wait a few Seconds"); dismiss
+      case _ => toast("Error during establishing Internet Connection. Wait a few Seconds"); dismiss
     }
     builder.setCustomTitle(titleView).setView(dialogView)
 
